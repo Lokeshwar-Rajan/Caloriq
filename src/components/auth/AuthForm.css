@@ -1,0 +1,45 @@
+body, html { margin: 0; padding: 0; height: 100%; }
+
+.auth-page { background-image: url('../../assets/TDEE.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh; display: flex; justify-content: center; align-items: center; }
+
+.auth-form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .auth-form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form-container input,
+  .auth-form-container select {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .auth-form-container button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .auth-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
